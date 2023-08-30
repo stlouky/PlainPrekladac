@@ -1,5 +1,3 @@
-### README.md pro PlainPrekladac
-
 # PlainPrekladac
 
 ## Popis
