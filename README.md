@@ -20,7 +20,7 @@ pip install selenium
 ```
 
 ## Použití
-### v adresáři musí být překládaný text jako soubor:
+### V pracovním adresáři musí být překládaný text jako soubor:
 ```
 form.txt
 ```
