@@ -20,6 +20,10 @@ pip install selenium
 ```
 
 ## Použití
+### v adresáři musí být překládaný text jako soubor:
+```
+form.txt
+```
 
 ### Preformat vstupního textu
 Spusťte skript `text_manipulation.py`:
