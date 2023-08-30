@@ -22,7 +22,7 @@ def write_and_split_paragraph(paragraph, outfile, tool):
         sentence = sentence.strip()
         sentence_length = len(sentence)
         
-        if current_length + sentence_length + 1 > 2000:
+        if current_length + sentence_length + 1 > 2500:
             corrected_subparagraph = check_grammar(current_subparagraph, tool)
             outfile.write(corrected_subparagraph.strip() + '\n\n')
             current_subparagraph = ""
