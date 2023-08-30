@@ -21,32 +21,30 @@ pip install selenium
 
 ## Použití
 
-### Kontrola gramatiky
-
+### Preformat vstupního textu
 Spusťte skript `text_manipulation.py`:
-
 ```bash
 python text_manipulation.py
 ```
-
 ### Překlad
-
 Spusťte skript `web_translation.py`:
-
 ```bash
 python web_translation.py
 ```
 
+### Kontrola gramatiky
+Spusťte skript `grammar_check.py`:
+```bash
+python grammar_check.py
+```
+
 ## Jak to funguje
 
-1. `text_manipulation.py` načte vstupní textový soubor form.txt, odstraní přebytečné mezery a stránková čísla, provede jednoduchou kontrolu anglické gramatiky a uloží zpracovaný text do translate.txt.
-2. `web_translation.py` načte opravený textový soubor translate.txt a provede jeho překlad. Přeložený text se uloží do souboru vystup.txt.
-4. `grammar_check.py` načte text z přeloženého textového souboru vytup.txt, provede kontrolu gramatiky a uloží do prelozeno.txt.
+1. `text_manipulation.py` načte vstupní textový soubor `form.txt`, odstraní přebytečné mezery a stránková čísla, provede jednoduchou kontrolu anglické gramatiky a uloží zpracovaný text do `translate.txt`.
+2. `web_translation.py` načte opravený textový soubor `translate.txt` a provede jeho překlad. Přeložený text se uloží do souboru `vystup.txt`.
+4. `grammar_check.py` načte text z přeloženého textového souboru `vytup.txt`, provede kontrolu gramatiky a uloží do `prelozeno.txt`.
 
 ## Licence
 
 Tento projekt je dostupný pod licencí MIT.
 
----
-
-Tento README soubor můžete vložit do kořenového adresáře vašeho GitHub repozitáře. Skripty, které jste poskytl, mohou být uloženy v samostatných souborech (`text_manipulation.py`, `grammar_check.py`, `web_translation.py`).
